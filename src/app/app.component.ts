@@ -10,7 +10,7 @@ import {MessageService} from './messages/message.service';
   animations: [slideInAnimation]
 })
 export class AppComponent {
-  pageTitle = 'Real Estate Product Management';
+  pageTitle = 'Real Estate  Management';
   loading = true;
   get isLoggedIn(): boolean {
     return this.authService.isLoggedIn;
